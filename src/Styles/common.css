@@ -1,0 +1,42 @@
+.main
+{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .intro
+{
+    width: 40%;
+    /* border: 2px solid cornflowerblue; */
+}
+.main .intro h2
+{
+    font-size: 2rem;
+}
+.main .intro span
+{
+    color: goldenrod;
+}
+.main .intro p
+{
+    font-size: 1rem;
+    color: #666;
+}
+.main .image-div
+{
+    width: 50%;
+    animation: animator 2s infinite alternate linear;
+    /* border: 2px solid cornflowerblue; */
+}
+.main .image-div img
+{
+    width: 100%;
+}
+
+
+@keyframes animator {
+    from{transform: translateY(15px);}
+    to{transform: translateY(-15px);}
+    
+}
